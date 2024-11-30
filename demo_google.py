@@ -34,5 +34,5 @@ buttonPenelusuran.click() #untuk memberi perintah klik tombol
 
 time.sleep(3) # Memberikan waktu tunggu sebelum browser tertutup
 
-
+ 
 #Jalankan program di terminal dengan perintah pytest nama_file.py. contoh : pytest demo_google.py (enter)
