@@ -48,4 +48,3 @@ try:
 finally:
     # Tutup browser
     driver.quit()
-
