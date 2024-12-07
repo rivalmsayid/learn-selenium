@@ -37,7 +37,7 @@ address = driver.find_element(By.XPATH,"(//textarea[@id='picture'])[1]")
 address.send_keys("Cimahi")
 
 state = driver.find_element(By.XPATH,"//*[@id='state']/option[2]").click()
-
+time.sleep(10)
 city = driver.find_element(By.XPATH,"//*[@id='city']/option[2]").click()
 time.sleep(10)
 login = driver.find_element(By.XPATH,"//input[@value='Login']").click()
